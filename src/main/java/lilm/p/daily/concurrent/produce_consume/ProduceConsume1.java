@@ -72,7 +72,7 @@ public class ProduceConsume1 {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		executor.shutdown();
 		System.out.println("=====end=====");
+		System.exit(0);
 	}
 }
